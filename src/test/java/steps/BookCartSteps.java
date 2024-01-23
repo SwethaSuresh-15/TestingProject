@@ -23,7 +23,6 @@ public class BookCartSteps extends DriverInstance {
 	
 	int currentCartValue=0;
 	int valueAfterClick=0;
-
 @Given("i want to navigate to website")
 public void iWantToNavigateToWebsite() {
 	driver.get("https://bookcart.azurewebsites.net/");
@@ -48,7 +47,6 @@ public void clickTheLoginButtonAndValidateTheOutcomes() throws InterruptedExcept
     String expected="https://bookcart.azurewebsites.net/login";
 //    Assert.assertNotSame(actual, expected);
 //    System.out.println("error");
- 
 }
 @Then("after the login search the {string} and click the first book")
 public void afterTheLoginSearchTheAndClickTheFirstBook(String book)  throws InterruptedException {
