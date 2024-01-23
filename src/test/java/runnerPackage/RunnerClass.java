@@ -13,7 +13,7 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 		dryRun = !true,
 		snippets=SnippetType.CAMELCASE,
 		monochrome = true,
-		plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
+		plugin = {"pretty"})
 public class RunnerClass extends AbstractTestNGCucumberTests{
  
 }
