@@ -26,7 +26,6 @@ public class BookCartSteps extends DriverInstance {
 
 @Given("i want to navigate to website")
 public void iWantToNavigateToWebsite() {
-	
 	driver.get("https://bookcart.azurewebsites.net/");
 }
 @Given("enter username as {string} and password as {string}")
