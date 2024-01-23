@@ -47,7 +47,7 @@ public void clickTheLoginButtonAndValidateTheOutcomes() throws InterruptedExcept
     String actual =driver.getCurrentUrl();
     String expected="https://bookcart.azurewebsites.net/login";
 //    Assert.assertNotSame(actual, expected);
-    System.out.println("error");
+//    System.out.println("error");
  
 }
 @Then("after the login search the {string} and click the first book")
